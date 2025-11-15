@@ -105,8 +105,10 @@ function SolarSystemAR() {
 					></a-entity>
 				</a-marker>
 
-				<a-entity
-					animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" camera></a-entity>
+				<a-entity 
+					camera="fov: 100" 
+					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2"
+				></a-entity>
 
 			</a-scene>
 		</div>
