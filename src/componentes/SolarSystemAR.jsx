@@ -12,7 +12,7 @@ function SolarSystemAR() {
 					camera="active: true"
 					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2"
 				></a-entity>
-{/*
+
 				<a-marker
 					type="pattern"
 					url="/marcadores/sol.patt"
@@ -31,9 +31,13 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/sol.glb"
 					>
+						<a-entity rotation="7.5 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/sol.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -55,9 +59,13 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/mercurio.glb"
 					>
+						<a-entity rotation="0.03 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/mercurio.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -79,12 +87,16 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/venus.glb"
 					>
+						<a-entity rotation="177 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/venus.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
-*/}
+
 				<a-marker
 					type="pattern"
 					url="/marcadores/tierra.patt"
@@ -103,12 +115,16 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/tierra.glb"
 					>
+						<a-entity rotation="23.5 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/tierra.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
-{/*
+
 				<a-marker
 					type="pattern"
 					url="/marcadores/luna.patt"
@@ -127,9 +143,13 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/luna.glb"
 					>
+						<a-entity rotation="6.68 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/luna.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -151,9 +171,13 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/marte.glb"
 					>
+						<a-entity rotation="25 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/marte.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -175,9 +199,13 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/jupiter.glb"
 					>
+						<a-entity rotation="3 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/jupiter.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -199,9 +227,13 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/saturno.glb"
 					>
+						<a-entity rotation="26.7 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/saturno.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -223,9 +255,13 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/urano.glb"
 					>
+						<a-entity rotation="97.8 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/urano.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -246,10 +282,13 @@ function SolarSystemAR() {
 						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
-						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/neptuno.glb"
 					>
+						<a-entity rotation="28.3 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/neptuno.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
 
@@ -271,12 +310,16 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-						gltf-model="/modelos/pluton.glb"
 					>
+						<a-entity rotation="119.6 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/pluton.glb"
+							></a-entity>
+						</a-entity>
 					</a-entity>
 				</a-marker>
-*/}
+
 			</a-scene>
 		</div>
 	);
