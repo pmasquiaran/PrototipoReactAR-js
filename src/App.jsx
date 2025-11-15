@@ -1,4 +1,4 @@
-import ARViewer from "./componentes/ARViewer.jsx";
+import ARViewer from "./componentes/SolarSystemAR.jsx";
 import './App.css'
 
 function App() {
