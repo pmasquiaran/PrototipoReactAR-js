@@ -8,7 +8,10 @@ function SolarSystemAR() {
 				renderer="logarithmicDepthBuffer: true;"
 			>
 
-				<a-entity camera></a-entity>
+				<a-entity
+					camera="active: true"
+					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2"
+				></a-entity>
 
 				<a-marker type="pattern" url="/marcadores/sol.patt" id="sol-marker" emitevents="true">
 					<a-entity id="sol-container" position="0 0.5 0" rotation="270 0 0" scale="0.5 0.5 0.5">						
