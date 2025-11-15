@@ -12,7 +12,7 @@ function SolarSystemAR() {
 					camera="active: true"
 					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2"
 				></a-entity>
-
+{/*
 				<a-marker
 					type="pattern"
 					url="/marcadores/sol.patt"
@@ -22,7 +22,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: sol"
+					control-planeta="target: sol-container"
 				>
 					<a-entity
 						id="sol-container"
@@ -31,12 +31,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#solModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/sol.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/sol.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -49,7 +46,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: mercurio"
+					control-planeta="target: mercurio-container"
 				>
 					<a-entity
 						id="mercurio-container"
@@ -58,12 +55,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#mercurioModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/mercurio.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/mercurio.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -76,7 +70,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: venus"
+					control-planeta="target: venus-container"
 				>
 					<a-entity
 						id="venus-container"
@@ -85,15 +79,12 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#venusModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/venus.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/venus.glb"
+					>
 					</a-entity>
 				</a-marker>
-
+*/}
 				<a-marker
 					type="pattern"
 					url="/marcadores/tierra.patt"
@@ -103,7 +94,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: tierra"
+					control-planeta="target: tierra-container"
 				>
 					<a-entity
 						id="tierra-container"
@@ -112,15 +103,12 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#tierraModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/tierra.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/tierra.glb"
+					>
 					</a-entity>
 				</a-marker>
-
+{/*
 				<a-marker
 					type="pattern"
 					url="/marcadores/luna.patt"
@@ -130,7 +118,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: luna"
+					control-planeta="target: luna-container"
 				>
 					<a-entity
 						id="luna-container"
@@ -139,12 +127,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#lunaModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/luna.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/luna.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -157,7 +142,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: marte"
+					control-planeta="target: marte-container"
 				>
 					<a-entity
 						id="marte-container"
@@ -166,12 +151,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#marteModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/marte.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/marte.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -184,7 +166,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: jupiter"
+					control-planeta="target: jupiter-container"
 				>
 					<a-entity
 						id="jupiter-container"
@@ -193,12 +175,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#jupiterModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/jupiter.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/jupiter.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -211,7 +190,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: saturno"
+					control-planeta="target: saturno-container"
 				>
 					<a-entity
 						id="saturno-container"
@@ -220,12 +199,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#saturnoModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/saturno.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/saturno.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -238,7 +214,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: urano"
+					control-planeta="target: urano-container"
 				>
 					<a-entity
 						id="urano-container"
@@ -247,12 +223,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#uranoModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/urano.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/urano.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -265,7 +238,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: neptuno"
+					control-planeta="target: neptuno-container"
 				>
 					<a-entity
 						id="neptuno-container"
@@ -274,12 +247,9 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#neptunoModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/neptuno.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/neptuno.glb"
+					>
 					</a-entity>
 				</a-marker>
 
@@ -292,7 +262,7 @@ function SolarSystemAR() {
 					smoothCount="10"
 					smoothTolerance="0.01"
 					smoothThreshold="5"
-					control-planeta="target: pluton"
+					control-planeta="target: pluton-container"
 				>
 					<a-entity
 						id="pluton-container"
@@ -301,15 +271,12 @@ function SolarSystemAR() {
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
-						gltf-model="#plutonModel"
-					>						
-						<a-entity
-							animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
-							gltf-model="/modelos/pluton.glb"
-						></a-entity>
+						animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+						gltf-model="/modelos/pluton.glb"
+					>
 					</a-entity>
 				</a-marker>
-
+*/}
 			</a-scene>
 		</div>
 	);
