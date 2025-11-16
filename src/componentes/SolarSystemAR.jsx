@@ -27,7 +27,7 @@ function SolarSystemAR() {
 					<a-entity
 						id="death-star-container"
 						position="0 0.5 0"
-						scale="1 1 1"
+						scale="0.02 0.02 0.02"
 						class="planeta"
 						visible="false"
 					>
