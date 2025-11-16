@@ -15,6 +15,33 @@ function SolarSystemAR() {
 
 				<a-marker
 					type="pattern"
+					url="/marcadores/death-star.patt"
+					id="sol-marker"
+					emitevents="true"
+					smooth="true"
+					smoothCount="10"
+					smoothTolerance="0.01"
+					smoothThreshold="5"
+					control-planeta="target: death-star-container"
+				>
+					<a-entity
+						id="death-star-container"
+						position="0 0.5 0"
+						scale="0.3 0.3 0.3"
+						class="planeta"
+						visible="false"
+					>
+						<a-entity rotation="0 0 0">
+							<a-entity
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								gltf-model="/modelos/death-star.glb"
+							></a-entity>
+						</a-entity>
+					</a-entity>
+				</a-marker>
+
+				<a-marker
+					type="pattern"
 					url="/marcadores/sol.patt"
 					id="sol-marker"
 					emitevents="true"
@@ -27,7 +54,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="sol-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -55,7 +81,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="mercurio-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -83,7 +108,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="venus-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -111,7 +135,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="tierra-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -139,7 +162,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="luna-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -167,7 +189,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="marte-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -195,7 +216,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="jupiter-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -223,7 +243,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="saturno-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -251,7 +270,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="urano-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -279,7 +297,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="neptuno-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 					>
@@ -306,7 +323,6 @@ function SolarSystemAR() {
 					<a-entity
 						id="pluton-container"
 						position="0 0.5 0"
-						rotation="270 0 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
