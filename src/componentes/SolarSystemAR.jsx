@@ -243,7 +243,7 @@ function SolarSystemAR() {
 					<a-entity
 						id="saturno-container"
 						position="0 0.5 0"
-						scale="0.02 0.02 0.02"
+						scale="0.008 0.008 0.008"
 						class="planeta"
 						visible="false"
 					>
