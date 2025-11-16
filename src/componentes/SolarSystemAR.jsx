@@ -27,13 +27,13 @@ function SolarSystemAR() {
 					<a-entity
 						id="death-star-container"
 						position="0 0.5 0"
-						scale="0.3 0.3 0.3"
+						scale="1 1 1"
 						class="planeta"
 						visible="false"
 					>
 						<a-entity rotation="0 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/death-star.glb"
 							></a-entity>
 						</a-entity>
@@ -60,7 +60,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="7.5 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/sol.glb"
 							></a-entity>
 						</a-entity>
@@ -87,7 +87,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="0.03 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/mercurio.glb"
 							></a-entity>
 						</a-entity>
@@ -114,7 +114,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="177 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/venus.glb"
 							></a-entity>
 						</a-entity>
@@ -141,7 +141,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="23.5 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/tierra.glb"
 							></a-entity>
 						</a-entity>
@@ -168,7 +168,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="6.68 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/luna.glb"
 							></a-entity>
 						</a-entity>
@@ -195,7 +195,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="25 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/marte.glb"
 							></a-entity>
 						</a-entity>
@@ -222,7 +222,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="3 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/jupiter.glb"
 							></a-entity>
 						</a-entity>
@@ -249,7 +249,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="26.7 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/saturno.glb"
 							></a-entity>
 						</a-entity>
@@ -276,7 +276,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="97.8 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/urano.glb"
 							></a-entity>
 						</a-entity>
@@ -302,7 +302,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="28.3 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/neptuno.glb"
 							></a-entity>
 						</a-entity>
@@ -329,7 +329,7 @@ function SolarSystemAR() {
 					>
 						<a-entity rotation="119.6 0 0">
 							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 10000"
+								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/pluton.glb"
 							></a-entity>
 						</a-entity>
