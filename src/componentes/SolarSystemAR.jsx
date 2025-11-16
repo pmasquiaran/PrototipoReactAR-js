@@ -31,7 +31,7 @@ function SolarSystemAR() {
 						class="planeta"
 						visible="false"
 					>
-						<a-entity rotation="0 0 0">
+						<a-entity rotation="-90 0 0">
 							<a-entity
 								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/death-star.glb"
