@@ -243,11 +243,11 @@ function SolarSystemAR() {
 					<a-entity
 						id="saturno-container"
 						position="0 0.5 0"
-						scale="0.08 0.08 0.08"
+						scale="0.02 0.02 0.02"
 						class="planeta"
 						visible="false"
 					>
-						<a-entity rotation="26.7 0 0">
+						<a-entity rotation="116.7 0 0">
 							<a-entity
 								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000"
 								gltf-model="/modelos/saturno.glb"
