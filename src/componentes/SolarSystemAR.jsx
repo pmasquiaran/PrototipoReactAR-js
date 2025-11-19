@@ -130,6 +130,7 @@ function SolarSystemAR() {
 					smoothThreshold="2"
 					control-planeta="target: tierra-container"
 				>
+					<a-entity light="type: ambient; intensity: 1.2"></a-entity>
 					<a-entity
 						class="planeta"
 						id="tierra-container"
