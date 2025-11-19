@@ -141,7 +141,7 @@ function SolarSystemAR() {
 					>
 						<a-entity
 							animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear"
-							fade-model="opacity: 0.9"
+							transparent-model="value: 0.9"
 							gltf-model="/modelos/tierra.glb"
 						></a-entity>
 					</a-entity>
