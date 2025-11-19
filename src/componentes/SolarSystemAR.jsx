@@ -1,6 +1,6 @@
 function SolarSystemAR() {
 	return (
-		<div style={{ width: "100vw", height: "100vh", overflow: "hidden" }}>
+		<div style={{ width: "100%", height: "100vh", overflow: "hidden" }}>
 {/*
 			<div class="arjs-loader">
 				<div>Cargando, por favor espera....</div>
@@ -14,7 +14,7 @@ function SolarSystemAR() {
 			>
 
 				<a-entity
-					camera="active: true; fov: 90;"
+					camera="active: true;"
 					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2;"
 				></a-entity>
 
