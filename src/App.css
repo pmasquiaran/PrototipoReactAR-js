@@ -1,7 +1,16 @@
-body {
+body, html {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+a-scene {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	height: 100vh !important;
+	width: 100vw !important;
 }
 .arjs-loader {
 	height: 100%;

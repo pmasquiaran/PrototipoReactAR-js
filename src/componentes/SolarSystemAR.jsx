@@ -14,8 +14,8 @@ function SolarSystemAR() {
 			>
 
 				<a-entity
-					camera="active: true"
-					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2"
+					camera="active: true; fov: 90;"
+					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2;"
 				></a-entity>
 
 {/*
@@ -134,8 +134,7 @@ function SolarSystemAR() {
 					<a-entity
 						class="planeta"
 						id="tierra-container"
-						light="type: ambient; intensity: 1"
-						position="0 0.5 0"
+						position="0 0.3 0"
 						rotation="23.5 0 0"
 						scale="0.3 0.3 0.3"
 						visible="false"

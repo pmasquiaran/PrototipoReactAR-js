@@ -59,6 +59,32 @@
 				}
 
 			});
+
+			window.addEventListener("orientationchange", () => {
+				setTimeout(() => {
+					const scene = document.querySelector("a-scene");
+					if (!scene || !scene.renderer || !scene.camera) return;
+
+					const camera = scene.camera;
+					const renderer = scene.renderer;
+
+					const width = window.innerWidth;
+					const height = window.innerHeight;
+
+					// Actualizar tamaño del renderizador
+					renderer.setSize(width, height);
+					renderer.setPixelRatio(window.devicePixelRatio);
+
+					// Ajustar viewport (iOS lo necesita)
+					renderer.setViewport(0, 0, width, height);
+
+					// Actualizar matriz de proyección
+					camera.aspect = width / height;
+					camera.updateProjectionMatrix();
+
+					console.log("📱 Cámara AR.js completamente reajustada tras rotación");
+				}, 150);
+			});
 			/**/
 		</script>
 	</body>
