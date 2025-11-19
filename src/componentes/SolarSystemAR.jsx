@@ -136,7 +136,7 @@ function SolarSystemAR() {
 						id="tierra-container"
 						position="0 0.3 0"
 						rotation="23.5 0 0"
-						scale="0.3 0.3 0.3"
+						scale="1 1 1"
 						visible="false"
 					>
 						<a-entity
