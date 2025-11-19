@@ -1,11 +1,11 @@
 function SolarSystemAR() {
 	return (
 		<div style={{ width: "100vw", height: "100vh", overflow: "hidden" }}>
-
+{/*
 			<div class="arjs-loader">
 				<div>Cargando, por favor espera....</div>
 			</div>
-
+*/}
 			<a-scene
 				vr-mode-ui="enabled: false"
 				embedded
