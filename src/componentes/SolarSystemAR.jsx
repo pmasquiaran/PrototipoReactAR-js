@@ -133,7 +133,7 @@ function SolarSystemAR() {
 					<a-entity
 						id="tierra-container"
 						position="0 0.5 0"
-						scale="0.3 0.3 0.3"
+						scale="1.3334365892997302 1.3334365892997302 1.3334365892997302"
 						class="planeta"
 						visible="false"
 						rotation="23.5 0 0">
