@@ -131,16 +131,19 @@ function SolarSystemAR() {
 					control-planeta="target: tierra-container"
 				>
 					<a-entity
-						id="tierra-container"
-						position="0 0.5 0"
-						scale="1.3334365892997302 1.3334365892997302 1.3334365892997302"
 						class="planeta"
+						id="tierra-container"
+						light="type: ambient; intensity: 1"
+						position="0 0.5 0"
+						rotation="23.5 0 0"
+						scale="0.3 0.3 0.3"
 						visible="false"
-						rotation="23.5 0 0">
-							<a-entity
-								animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear"
-								gltf-model="/modelos/tierra.glb"
-							></a-entity>
+					>
+						<a-entity
+							animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear"
+							fade-model="opacity: 0.9"
+							gltf-model="/modelos/tierra.glb"
+						></a-entity>
 					</a-entity>
 				</a-marker>
 {/*
