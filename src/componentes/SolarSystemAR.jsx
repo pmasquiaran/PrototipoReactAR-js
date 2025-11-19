@@ -132,7 +132,7 @@ function SolarSystemAR() {
 				>
 					<a-entity
 						id="tierra-container"
-						position="0 0 0"
+						position="0 0.5 0"
 						scale="0.3 0.3 0.3"
 						class="planeta"
 						visible="false"
@@ -318,8 +318,6 @@ function SolarSystemAR() {
 					</a-entity>
 				</a-marker>
 */}
-
-
 			</a-scene>
 		</div>
 	);
