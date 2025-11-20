@@ -19,7 +19,11 @@ function SolarSystemAR() {
 				></a-entity>
 
 				<a-entity
-					light="type: ambient; intensity: 1; color: #00feff;"
+					light="type: ambient; intensity: 2;"
+				></a-entity>
+
+				<a-entity
+					environment="preset: default; lighting: ambient;"
 				></a-entity>
 
 				<a-marker
