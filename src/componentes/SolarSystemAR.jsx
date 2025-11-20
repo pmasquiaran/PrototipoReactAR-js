@@ -18,6 +18,10 @@ function SolarSystemAR() {
 					arjs-camera="smooth: true; smoothCount: 5; smoothTolerance: 0.01; smoothThreshold: 2;"
 				></a-entity>
 
+				<a-entity
+					light="type: ambient; intensity: 1; color: #00feff;"
+				></a-entity>
+
 				<a-marker
 					type="pattern"
 					url="/marcadores/death-star.patt"
@@ -32,36 +36,14 @@ function SolarSystemAR() {
 					<a-entity
 						id="death-star-container"
 						class="planeta"
-						position="0 0.5 0"
+						position="0 0.3 0"
 						rotation="0 0 0"
-						scale="0.01 0.01 0.01"
+						scale="0.03 0.03 0.03"
 						visible="false"
 					>
-
-<a-entity light="type: ambient; intensity: 1.0"></a-entity>
-
-<a-entity 
-  light="type: hemisphere; 
-         intensity: 1.1; 
-         color: #ffffff; 
-         groundColor: #555555">
-</a-entity>
-
-<a-entity 
-  light="type: directional; 
-         intensity: 1.2" 
-  position="1 2 1">
-</a-entity>
-
-<a-entity 
-  light="type: directional; 
-         intensity: 0.7" 
-  position="-1 -1 0">
-</a-entity>
-
 						<a-entity
-						animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear"
-						transparent-model="value: 0.9"
+							animation="property: rotation; to: 0 360 0; loop: true; dur: 15000; easing: linear"
+							transparent-model="value: 0.9"
 							gltf-model="/modelos/death-star.glb"
 						></a-entity>
 					</a-entity>
@@ -153,7 +135,6 @@ function SolarSystemAR() {
 					smoothThreshold="2"
 					control-planeta="target: tierra-container"
 				>
-					<a-entity light="type: ambient; intensity: 1.2"></a-entity>
 					<a-entity
 						class="planeta"
 						id="tierra-container"
