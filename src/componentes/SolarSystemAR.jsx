@@ -254,7 +254,7 @@ function SolarSystemAR() {
 							></a-entity>
 					</a-entity>
 				</a-marker>
-{/*
+
 				<a-marker
 					type="pattern"
 					url="/marcadores/urano.patt"
@@ -328,7 +328,7 @@ function SolarSystemAR() {
 							></a-entity>
 					</a-entity>
 				</a-marker>
-*/}
+
 			</a-scene>
 		</div>
 	);
