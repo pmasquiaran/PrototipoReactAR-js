@@ -154,7 +154,7 @@ function SolarSystemAR() {
 						></a-entity>
 					</a-entity>
 				</a-marker>
-{/*
+
 				<a-marker
 					type="pattern"
 					url="/marcadores/luna.patt"
@@ -204,7 +204,7 @@ function SolarSystemAR() {
 							></a-entity>
 					</a-entity>
 				</a-marker>
-
+{/*
 				<a-marker
 					type="pattern"
 					url="/marcadores/jupiter.patt"
